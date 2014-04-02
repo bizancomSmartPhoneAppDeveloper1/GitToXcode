@@ -204,6 +204,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = bizancom;
 				TargetAttributes = {
+					A7F94B3918EC2CAB0069AC8A = {
+						DevelopmentTeam = F6V5S453ZH;
+					};
 					A7F94B5D18EC2CAB0069AC8A = {
 						TestTargetID = A7F94B3918EC2CAB0069AC8A;
 					};
@@ -382,6 +385,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GitToXcode/GitToXcode-Prefix.pch";
 				INFOPLIST_FILE = "GitToXcode/GitToXcode-Info.plist";
@@ -395,6 +399,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GitToXcode/GitToXcode-Prefix.pch";
 				INFOPLIST_FILE = "GitToXcode/GitToXcode-Info.plist";
@@ -462,6 +467,7 @@
 				A7F94B7118EC2CAB0069AC8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7F94B7218EC2CAB0069AC8A /* Build configuration list for PBXNativeTarget "GitToXcodeTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +476,7 @@
 				A7F94B7418EC2CAB0069AC8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
